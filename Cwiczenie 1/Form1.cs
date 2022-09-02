@@ -23,6 +23,7 @@ namespace Cwiczenie_1
             {
             for (int i=0; i<254; i++)
             {
+                   
                 this.BackColor = Color.FromArgb(25, 255 - i, 33);
                 Application.DoEvents();
                 System.Threading.Thread.Sleep(10);
@@ -33,8 +34,31 @@ namespace Cwiczenie_1
                 Application.DoEvents();
                 System.Threading.Thread.Sleep(10);
             }
+           
             }
             
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+             if(label1.Text == "Z prawej")
+                {
+                    label1.Text = "Z lewej";
+                    label1.TextAlign = ContentAlignment.MiddleLeft;
+                }
+             else
+                {
+                    label1.Text = "Z prawej";
+                    label1.TextAlign = ContentAlignment.MiddleRight;
+                }
+            }
+            else
+            {
+                label1.Text = "Możliwość zmiany tekstu, została wylączona";
+                label1.TextAlign = ContentAlignment.MiddleCenter;
+            }
         }
     }
 }
