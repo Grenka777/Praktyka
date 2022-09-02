@@ -96,8 +96,8 @@
                 </Rectangle.Fill>
             </Rectangle>
             <StackPanel x:Name="stackScore" Height="16" Orientation="Horizontal" Canvas.Left="7" Canvas.Top="-27">
-                <TextBlock x:Name="textT" TextWrapping="Wrap" Text="Score:"/>
-                <TextBlock x:Name="textInt" TextWrapping="Wrap" Width="10"/>
+                <TextBlock x:Name="textT" TextWrapping="Wrap" Text="Score:" FontSize="18" Margin="0,0,0,-7" Width="54" Foreground="Red" FontWeight="Bold"/>
+                <TextBlock x:Name="textInt" TextWrapping="Wrap" Width="25" FontSize="18" Margin="0,0,0,-7" Foreground="Red"/>
             </StackPanel>
         </Canvas>
 
