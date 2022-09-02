@@ -63,6 +63,8 @@ namespace Ratuj_ludzi2
                 humanCaptured = false;
                 startButton.Visibility = Visibility.Visible;
                 playArea.Children.Add(gameOverText);
+                score = 0;
+
             }
         }
 
@@ -91,6 +93,7 @@ namespace Ratuj_ludzi2
             enemyTimer.Start();
             targetTimer.Start();
             playArea.Children.Add(stackScore);
+             textInt.Text = Convert.ToString(score);
         }
 
         private void AddEnemy()

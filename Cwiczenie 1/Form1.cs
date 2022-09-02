@@ -23,13 +23,13 @@ namespace Cwiczenie_1
             {
             for (int i=0; i<254; i++)
             {
-                this.BackColor = Color.FromArgb(i, 255 - i, i);
+                this.BackColor = Color.FromArgb(25, 255 - i, 33);
                 Application.DoEvents();
                 System.Threading.Thread.Sleep(10);
             }
             for (int c =254;c>=0&&Visible;c--)
             {
-                this.BackColor = Color.FromArgb(c, 255 - c, c);
+                this.BackColor = Color.FromArgb(41, 255 - c, 68);
                 Application.DoEvents();
                 System.Threading.Thread.Sleep(10);
             }
