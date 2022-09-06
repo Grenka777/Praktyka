@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Niechlujny Janek", "..\Niec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gra w literki", "..\Gra w literki\Gra w literki.csproj", "{B8E2DF58-56F3-4FEB-8164-C44FA7C2ACE6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dzień na wyścigach", "..\Dzień na wyścigach\Dzień na wyścigach.csproj", "{0009ED37-2693-41F7-B942-8215B889C541}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B8E2DF58-56F3-4FEB-8164-C44FA7C2ACE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8E2DF58-56F3-4FEB-8164-C44FA7C2ACE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8E2DF58-56F3-4FEB-8164-C44FA7C2ACE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0009ED37-2693-41F7-B942-8215B889C541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0009ED37-2693-41F7-B942-8215B889C541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0009ED37-2693-41F7-B942-8215B889C541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0009ED37-2693-41F7-B942-8215B889C541}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
