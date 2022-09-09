@@ -11,7 +11,7 @@ namespace Dzień_na_wyścigach
     {
         public int StartPosition;
         public int RacetrackLength;
-        public PictureBox MyPictureBox = null;
+        public PictureBox MyPictureBox;
         public int Location = 0;
         public Random MyRandom = new Random();
 
